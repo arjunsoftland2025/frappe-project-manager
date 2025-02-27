@@ -1,0 +1,728 @@
+2025-02-20 15:40:25,453 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'doctype': 'Library Membership', 'fieldname': 'name', 'filters': '{"name":{"docstatus":1,"to_date":[">","2025-02-11"]}}', 'cmd': 'frappe.client.get_value'}
+2025-02-20 15:40:56,754 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'doctype': 'Library Membership', 'fieldname': 'name', 'filters': '{"name":{"docstatus":1,"to_date":[">","2025-02-04"]}}', 'cmd': 'frappe.client.get_value'}
+2025-02-20 15:43:35,359 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'doctype': 'Library Membership', 'fieldname': 'name', 'filters': '{"name":{"docstatus":1,"to_date":[">","2025-02-20"]}}', 'cmd': 'frappe.client.get_value'}
+2025-02-20 15:45:29,661 ERROR frappe Error while inserting deferred Error Log record: Error Log cfp0f08snd: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''docstatus': 1, 'to_date': ['>', '2025-02-11']}\n\t\t\t\n\t\t\t\n\t\t\tlimit 1 offset 0' at line 3")) will get truncated, as max characters allowed is 140
+Site: site67.local
+Form Dict: {}
+2025-02-20 15:45:29,665 ERROR frappe Error while inserting deferred Error Log record: Error Log vqh0qs2dtt: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''docstatus': 1, 'to_date': ['>', '2025-02-04']}\n\t\t\t\n\t\t\t\n\t\t\tlimit 1 offset 0' at line 3")) will get truncated, as max characters allowed is 140
+Site: site67.local
+Form Dict: {}
+2025-02-20 15:45:29,668 ERROR frappe Error while inserting deferred Error Log record: Error Log ms1gkg8kjp: 'Title' ((1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''docstatus': 1, 'to_date': ['>', '2025-02-20']}\n\t\t\t\n\t\t\t\n\t\t\tlimit 1 offset 0' at line 3")) will get truncated, as max characters allowed is 140
+Site: site67.local
+Form Dict: {}
+2025-02-20 15:46:34,872 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'doctype': 'Library Membership', 'fieldname': 'name', 'filters': '{"name":{"docstatus":1,"to_date":[">","2025-02-12"]}}', 'cmd': 'frappe.client.get_value'}
+2025-02-21 10:50:40,074 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'library_management.library_management.rest_api.get_books'}
+2025-02-21 10:53:38,151 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'library_management.library_management.rest_api.get_books'}
+2025-02-21 12:58:44,345 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 12:59:39,145 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 12:59:55,826 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 13:01:53,615 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 13:02:20,556 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 13:40:14,501 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.services.api.get_todos'}
+2025-02-21 14:30:29,832 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.api.create_todo'}
+2025-02-21 14:31:26,609 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.api.get_todos'}
+2025-02-24 09:02:36,904 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.api.create_todo'}
+2025-02-24 12:20:46,249 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.api.create_todo'}
+2025-02-24 12:21:05,696 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'cmd': 'todo_app.api.create_todo'}
+2025-02-24 12:59:41,109 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'Sample Todo Tas', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-24 14:49:15,755 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'Sample Todo Tas', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-25 09:05:00,511 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'wee', 'description': 'rwrwrwrwr', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:05:02,808 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'wee', 'description': 'rwrwrwrwr', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:05:15,965 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'name': 'TASK00006', 'title': 'update sm', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-25 09:05:18,127 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'name': 'TASK00006', 'title': 'update sm', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-25 09:05:18,370 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'name': 'TASK00006', 'title': 'update sm', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-25 09:05:18,583 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'name': 'TASK00006', 'title': 'update sm', 'description': 'This is a sample description for the task.', 'due_date': '2025-03-01', 'status': 'Open', 'cmd': 'todo_app.api.update_todo'}
+2025-02-25 09:06:14,836 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:16,040 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:16,365 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:16,566 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:16,736 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:16,917 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:17,081 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:06:17,286 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'title': 'ewew', 'description': 'wewew', 'due_date': '2025-02-28', 'status': 'Open', 'cmd': 'todo_app.api.create_todo'}
+2025-02-25 09:24:51,315 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 09:25:59,995 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 09:31:13,108 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:25:41,108 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:25:45,759 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:25:46,079 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'token': '********', 'cmd': 'chat.api.config.settings'}
+2025-02-25 11:26:09,028 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:26:09,283 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:26:09,543 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'token': '********', 'cmd': 'chat.api.config.settings'}
+2025-02-25 11:26:54,279 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:26:58,934 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 11:26:59,219 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'token': '********', 'cmd': 'chat.api.config.settings'}
+2025-02-25 12:46:36,492 ERROR frappe Failed to run after request hook
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 195, in init_request
+    frappe.local.http_request = HTTPRequest()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/auth.py", line 44, in __init__
+    self.set_session()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/auth.py", line 78, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/auth.py", line 120, in __init__
+    self.make_session(resume=True)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/auth.py", line 215, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/sessions.py", line 230, in __init__
+    self.resume()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/sessions.py", line 313, in resume
+    self.validate_user()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/sessions.py", line 238, in validate_user
+    if not frappe.get_cached_value("User", self.user, "enabled"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1222, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1165, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 100, in get_value
+    val = generator()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1568, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1434, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py", line 3, in <module>
+    from frappe.exceptions import Forbidden
+ImportError: cannot import name 'Forbidden' from 'frappe.exceptions' (/home/silpc-067/frappe-bench/apps/frappe/frappe/exceptions.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 132, in application
+    response = handle_exception(e)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 323, in handle_exception
+    allow_traceback = frappe.get_system_settings("allow_error_traceback") if frappe.db else False
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 2350, in get_system_settings
+    local.system_settings = get_cached_doc("System Settings")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1165, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 100, in get_value
+    val = generator()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1568, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1434, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py", line 3, in <module>
+    from frappe.exceptions import Forbidden
+ImportError: cannot import name 'Forbidden' from 'frappe.exceptions' (/home/silpc-067/frappe-bench/apps/frappe/frappe/exceptions.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 146, in application
+    run_after_request_hooks(request, response)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 161, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 100, in get_value
+    val = generator()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1568, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1434, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py", line 3, in <module>
+    from frappe.exceptions import Forbidden
+ImportError: cannot import name 'Forbidden' from 'frappe.exceptions' (/home/silpc-067/frappe-bench/apps/frappe/frappe/exceptions.py)
+2025-02-25 12:58:56,830 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 12:59:37,758 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 13:01:23,139 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 13:02:09,545 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 13:03:42,547 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 14:05:09,889 ERROR frappe Could not take error snapshot: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:05:09,894 ERROR frappe Failed to run after request hook
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 38, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 117, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 132, in application
+    response = handle_exception(e)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 395, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 28, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/utils.py", line 531, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 146, in application
+    run_after_request_hooks(request, response)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 161, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:18:36,392 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {}
+2025-02-25 14:19:13,377 ERROR frappe Could not take error snapshot: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:19:13,379 ERROR frappe Failed to run after request hook
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 38, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 117, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 132, in application
+    response = handle_exception(e)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 395, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 28, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/utils.py", line 531, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 146, in application
+    run_after_request_hooks(request, response)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 161, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:19:30,708 ERROR frappe Could not take error snapshot: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:19:30,711 ERROR frappe Failed to run after request hook
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 38, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 117, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 132, in application
+    response = handle_exception(e)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 395, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 28, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/utils.py", line 531, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 146, in application
+    run_after_request_hooks(request, response)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 161, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:19:34,251 ERROR frappe Could not take error snapshot: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1291, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 14:19:34,253 ERROR frappe Failed to run after request hook
+Site: site67.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 99, in application
+    init_request(request)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 38, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 117, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 132, in application
+    response = handle_exception(e)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 395, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/serve.py", line 28, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/utils.py", line 531, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 146, in application
+    run_after_request_hooks(request, response)
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/app.py", line 161, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/__init__.py", line 1601, in get_hooks
+    hooks = _dict(cache.get_value("app_hooks", _load_app_hooks))
+  File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
+    val = pickle.loads(val)
+AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-25 16:33:21,550 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-02-25 16:34:02,540 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-02-25 16:54:10,241 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'user': 'arjunkrishna@gmail.com', 'cmd': 'frappe.core.doctype.user.user.reset_password'}
+2025-02-26 17:30:49,977 ERROR frappe New Exception collected in error log
+Site: site67.local
+Form Dict: {'doc': '{"name":"TaskDetails","creation":"2025-02-25 15:27:28.604286","modified":"2025-02-26 17:19:06.751162","modified_by":"itssoftland@gmail.com","owner":"itssoftland@gmail.com","docstatus":0,"idx":0,"issingle":0,"is_virtual":0,"is_tree":0,"istable":0,"editable_grid":0,"track_changes":0,"module":"Project Manager","autoname":"field:task_name","naming_rule":"Expression (old style)","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":1,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":0,"track_views":0,"queue_in_background":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"index_web_pages_for_search":1,"doctype":"DocType","links":[],"states":[],"actions":[],"fields":[{"docstatus":0,"doctype":"DocField","name":"new-docfield-zhqypnvhld","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Section Break","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"section_break_suji","label":"","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-haatdgcsen","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Date","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"assigned_employee","label":"Assigned Employee","options":"EmployeeDetails","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-gfbvoahjzs","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Data","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":1,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"task_name","label":"Task Name","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-gndozvufih","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Text","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"task_description","label":"Task Description","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-htbfznbkxh","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Select","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"task_status","label":"Task Status","options":"Pending\\nCompleted\\nClosed","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-ogbdhymgcu","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Date","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"task_due_date","label":"Due date of task","show_preview_popup":0,"columns":0,"length":0},{"docstatus":0,"doctype":"DocField","name":"new-docfield-dtntthafcu","__islocal":1,"__unsaved":1,"owner":"itssoftland@gmail.com","fieldtype":"Link","precision":"","non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"parent":"TaskDetails","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"assigned_project","label":"Assigned Project","options":"ProjectDetails","show_preview_popup":0,"columns":0,"length":0}],"permissions":[{"name":"tibjmbrarg","creation":"2025-02-25 15:27:28.604286","modified":"2025-02-26 17:19:06.751162","modified_by":"itssoftland@gmail.com","owner":"itssoftland@gmail.com","docstatus":0,"parent":"TaskDetails","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"},{"name":"uq31u6jg1k","creation":"2025-02-25 15:27:28.604286","modified":"2025-02-26 17:19:06.751162","modified_by":"itssoftland@gmail.com","owner":"itssoftland@gmail.com","docstatus":0,"parent":"TaskDetails","parentfield":"permissions","parenttype":"DocType","idx":2,"permlevel":0,"role":"Task-Boss","read":1,"write":0,"create":0,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"},{"name":"h59qp0p9gi","creation":"2025-02-25 15:27:28.604286","modified":"2025-02-26 17:19:06.751162","modified_by":"itssoftland@gmail.com","owner":"itssoftland@gmail.com","docstatus":0,"parent":"TaskDetails","parentfield":"permissions","parenttype":"DocType","idx":3,"permlevel":0,"role":"Task-Employee","read":0,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

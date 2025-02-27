@@ -1,0 +1,91 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.56.1"
+    },
+    "payments": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4919784ed8d80e03bc1f2384e291faa44dd083e7",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "16e8a00f452a8fc08b830e064a4d02da038bf144",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "15.53.0"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d2d2ea453786b7bfc6ac3a93acf04c560178ca67",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "15.39.1"
+    },
+    "chat": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d6ff7fcec0626b3f217d11bf4376f86c4f374d50",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "india_compliance": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d5a8ecf80fe410042f0704135e337f9d8a8b02bc",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "15.16.1"
+    },
+    "library_management": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fb92e92b6966622c544b19e8839b0944011942ff",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    },
+    "todo_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b6e496914569f8d5dcdf7f12b9020956cd356f6c",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    },
+    "project_manager": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "6bc565675efe124abc51384a94bc8ca4af50aa65",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 9,
+        "version": "0.0.1"
+    }
+}

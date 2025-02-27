@@ -1,0 +1,9 @@
+frappe
+chat
+india_compliance
+library_management
+hrms
+todo_app
+project_manager
+payments
+erpnext
