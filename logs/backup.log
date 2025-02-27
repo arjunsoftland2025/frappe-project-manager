@@ -177,3 +177,21 @@ Backup Summary for site67.local at 2025-02-26 18:00:06.943659
 Config  : ./site67.local/private/backups/20250226_180004-site67_local-site_config_backup.json 214.0B
 Database: ./site67.local/private/backups/20250226_180004-site67_local-database.sql.gz         2.2MiB
 Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250227_120001-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-02-27 12:00:06.827560
+Config  : ./library.test/private/backups/20250227_120001-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250227_120001-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250226_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250226_120004-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250225_180005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250225_180005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250226_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250226_120004-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-02-27 12:00:09.221569
+Config  : ./site67.local/private/backups/20250227_120006-site67_local-site_config_backup.json 214.0B
+Database: ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed

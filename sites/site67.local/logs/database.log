@@ -366,3 +366,9 @@ ALTER TABLE `tabDepartmentDetails` ADD COLUMN `department_name` varchar(140), AD
 ALTER TABLE `tabDepartmentDetails` ADD UNIQUE INDEX IF NOT EXISTS department_name (`department_name`)
 2025-02-26 12:09:22,466 WARNING database DDL Query made to DB:
 ALTER TABLE `tabEmployeeDetails` ADD COLUMN `department_name` varchar(140), ADD COLUMN `department_post` varchar(140)
+2025-02-27 11:04:34,452 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTaskDetails` ADD COLUMN `custom_task_name` varchar(140) unique
+2025-02-27 11:04:34,456 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTaskDetails` ADD UNIQUE INDEX IF NOT EXISTS custom_task_name (`custom_task_name`)
+2025-02-27 12:06:14,142 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTaskDetails` ADD COLUMN `task_date` date
