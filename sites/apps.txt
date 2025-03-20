@@ -7,3 +7,4 @@ todo_app
 project_manager
 payments
 erpnext
+attendence

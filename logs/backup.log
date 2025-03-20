@@ -195,3 +195,481 @@ Backup Summary for site67.local at 2025-02-27 12:00:09.221569
 Config  : ./site67.local/private/backups/20250227_120006-site67_local-site_config_backup.json 214.0B
 Database: ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz         2.2MiB
 Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250227_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-02-27 18:00:04.706500
+Config  : ./library.test/private/backups/20250227_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250227_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250226_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_120006-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250226_180004-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250227_180004-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-02-27 18:00:06.362808
+Config  : ./site67.local/private/backups/20250227_180004-site67_local-site_config_backup.json 214.0B
+Database: ./site67.local/private/backups/20250227_180004-site67_local-database.sql.gz         2.1MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250228_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-02-28 12:00:05.105709
+Config  : ./library.test/private/backups/20250228_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250228_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250226_180004-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250227_120006-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250226_180004-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250228_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-02-28 12:00:06.690405
+Config  : ./site67.local/private/backups/20250228_120005-site67_local-site_config_backup.json 214.0B
+Database: ./site67.local/private/backups/20250228_120005-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250228_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-02-28 18:00:05.029657
+Config  : ./library.test/private/backups/20250228_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250228_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250228_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_120006-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250228_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250227_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250227_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250227_120006-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250228_180005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-02-28 18:00:07.617715
+Config  : ./site67.local/private/backups/20250228_180005-site67_local-site_config_backup.json 214.0B
+Database: ./site67.local/private/backups/20250228_180005-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250303_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-03 12:00:03.951727
+Config  : ./library.test/private/backups/20250303_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250303_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250303_092230-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250303_092230-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250303_120003-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-03 12:00:05.623376
+Config  : ./site67.local/private/backups/20250303_120003-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250303_120003-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250303_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-03 18:00:05.670985
+Config  : ./library.test/private/backups/20250303_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250303_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250303_092230-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250303_120003-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250303_092230-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250303_120003-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250303_180005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-03 18:00:07.863716
+Config  : ./site67.local/private/backups/20250303_180005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250303_180005-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250304_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-04 12:00:05.914133
+Config  : ./library.test/private/backups/20250304_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250304_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250303_092230-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250303_120003-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250303_092230-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250303_120003-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250303_180005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250303_180005-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250304_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-04 12:00:07.946095
+Config  : ./site67.local/private/backups/20250304_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250304_120005-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250304_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-04 18:00:04.935022
+Config  : ./library.test/private/backups/20250304_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250304_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250304_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250303_180005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250304_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250303_180005-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250304_180004-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-04 18:00:06.986148
+Config  : ./site67.local/private/backups/20250304_180004-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250304_180004-site67_local-database.sql.gz         2.2MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250305_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-05 12:00:05.087904
+Config  : ./library.test/private/backups/20250305_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250305_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250304_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250304_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250304_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250303_180005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250304_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250303_180005-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250305_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-05 12:00:07.020712
+Config  : ./site67.local/private/backups/20250305_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250305_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250305_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-05 18:00:04.830894
+Config  : ./library.test/private/backups/20250305_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250305_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250304_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250305_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250304_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250304_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250305_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250304_120005-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250305_180004-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-05 18:00:07.217060
+Config  : ./site67.local/private/backups/20250305_180004-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250305_180004-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250306_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-06 12:00:05.892060
+Config  : ./library.test/private/backups/20250306_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250306_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250304_180004-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250305_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250305_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250304_180004-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250305_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250305_120005-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250306_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-06 12:00:08.431620
+Config  : ./site67.local/private/backups/20250306_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250306_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250306_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-06 18:00:04.764630
+Config  : ./library.test/private/backups/20250306_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250306_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250305_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250306_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250305_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250305_180004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250306_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250305_120005-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250306_180004-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-06 18:00:06.692558
+Config  : ./site67.local/private/backups/20250306_180004-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250306_180004-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250307_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-07 12:00:05.631531
+Config  : ./library.test/private/backups/20250307_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250307_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250306_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250305_180004-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250306_180004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250305_180004-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250306_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250306_180004-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250307_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-07 12:00:07.491929
+Config  : ./site67.local/private/backups/20250307_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250307_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250309_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-09 12:00:05.020341
+Config  : ./library.test/private/backups/20250309_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250309_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250307_120005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250306_120005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250307_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250306_180004-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250306_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250306_180004-site67_local-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-09 12:00:07.379325
+Config  : ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250309_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-09 18:00:03.621640
+Config  : ./library.test/private/backups/20250309_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250309_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-09 18:00:05.182525
+Config  : ./site67.local/private/backups/20250309_180003-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250310_000002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-10 00:00:03.527057
+Config  : ./library.test/private/backups/20250310_000002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250310_000002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250309_180003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250310_000003-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-10 00:00:05.057250
+Config  : ./site67.local/private/backups/20250310_000003-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250310_000003-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250310_060001-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-10 06:00:03.265486
+Config  : ./library.test/private/backups/20250310_060001-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250310_060001-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250310_000003-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_180003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250310_000003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250310_060003-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-10 06:00:04.822197
+Config  : ./site67.local/private/backups/20250310_060003-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250310_060003-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250310_120001-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-10 12:00:04.882464
+Config  : ./library.test/private/backups/20250310_120001-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250310_120001-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250310_000003-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250310_060003-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_180003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250310_060003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250310_000003-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250310_120004-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-10 12:00:07.853746
+Config  : ./site67.local/private/backups/20250310_120004-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250310_120004-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250311_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-11 12:00:05.704621
+Config  : ./library.test/private/backups/20250311_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250311_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250310_000003-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250310_060003-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250309_180003-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250310_060003-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250309_120005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250310_120004-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250310_120004-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250309_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250310_000003-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250309_180003-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250311_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-11 12:00:08.893585
+Config  : ./site67.local/private/backups/20250311_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250311_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250311_180003-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-11 18:00:06.849079
+Config  : ./library.test/private/backups/20250311_180003-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250311_180003-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250311_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250310_120004-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250310_120004-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250311_120005-site67_local-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250311_180006-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-11 18:00:09.428603
+Config  : ./site67.local/private/backups/20250311_180006-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250311_180006-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250314_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-14 12:00:05.643744
+Config  : ./library.test/private/backups/20250314_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250314_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250311_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250311_120005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250311_180006-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250311_180006-site67_local-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250314_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-14 12:00:08.072481
+Config  : ./site67.local/private/backups/20250314_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250314_120005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250314_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-14 18:00:05.600351
+Config  : ./library.test/private/backups/20250314_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250314_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250314_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250314_120005-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250314_180005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-14 18:00:07.869337
+Config  : ./site67.local/private/backups/20250314_180005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250314_180005-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250317_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-17 12:00:06.559556
+Config  : ./library.test/private/backups/20250317_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250317_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250314_180005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250314_120005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250314_120005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250314_180005-site67_local-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250317_120006-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-17 12:00:08.850031
+Config  : ./site67.local/private/backups/20250317_120006-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250317_120006-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250317_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-17 18:00:06.312188
+Config  : ./library.test/private/backups/20250317_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250317_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250317_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_120006-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250317_180006-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-17 18:00:10.745206
+Config  : ./site67.local/private/backups/20250317_180006-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250317_180006-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250318_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-18 12:00:06.025894
+Config  : ./library.test/private/backups/20250318_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250318_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250317_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_180006-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250317_180006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_120006-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250318_120006-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-18 12:00:09.425383
+Config  : ./site67.local/private/backups/20250318_120006-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250318_120006-site67_local-database.sql.gz         2.3MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250318_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-18 18:00:05.893636
+Config  : ./library.test/private/backups/20250318_180002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250318_180002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250317_120006-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250318_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_180006-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250317_180006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_120006-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250318_120006-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250318_180005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-18 18:00:08.516610
+Config  : ./site67.local/private/backups/20250318_180005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250318_180005-site67_local-database.sql.gz         3.0MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250319_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-19 12:00:05.695209
+Config  : ./library.test/private/backups/20250319_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250319_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250318_120006-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250317_180006-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250317_180006-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250318_180005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250318_180005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250318_120006-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250319_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-19 12:00:08.632969
+Config  : ./site67.local/private/backups/20250319_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250319_120005-site67_local-database.sql.gz         3.0MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250319_180003-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-19 18:00:07.218420
+Config  : ./library.test/private/backups/20250319_180003-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250319_180003-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250318_120006-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250318_180005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250319_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250318_180005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250319_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250318_120006-site67_local-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250319_180007-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-19 18:00:10.897266
+Config  : ./site67.local/private/backups/20250319_180007-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250319_180007-site67_local-database.sql.gz         3.0MiB
+Backup for Site site67.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_473b6b06d3ef1825 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _473b6b06d3ef1825 | /usr/bin/gzip >> ./library.test/private/backups/20250320_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2025-03-20 12:00:05.515868
+Config  : ./library.test/private/backups/20250320_120002-library_test-site_config_backup.json 158.0B
+Database: ./library.test/private/backups/20250320_120002-library_test-database.sql.gz         1.7MiB
+Backup for Site library.test has been successfully completed
+File ./site67.local/private/backups/20250319_180007-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250318_180005-site67_local-database.sql.gz is older than 24 hours
+File ./site67.local/private/backups/20250319_120005-site67_local-site_config_backup.json is recent
+File ./site67.local/private/backups/20250318_180005-site67_local-site_config_backup.json is older than 24 hours
+File ./site67.local/private/backups/20250319_120005-site67_local-database.sql.gz is recent
+File ./site67.local/private/backups/20250319_180007-site67_local-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ee70d43a3b0f90d1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ee70d43a3b0f90d1 | /usr/bin/gzip >> ./site67.local/private/backups/20250320_120005-site67_local-database.sql.gz
+
+Backup Summary for site67.local at 2025-03-20 12:00:08.162127
+Config  : ./site67.local/private/backups/20250320_120005-site67_local-site_config_backup.json 239.0B
+Database: ./site67.local/private/backups/20250320_120005-site67_local-database.sql.gz         3.0MiB
+Backup for Site site67.local has been successfully completed

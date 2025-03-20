@@ -126,3 +126,6 @@ Traceback (most recent call last):
   File "/home/silpc-067/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 96, in get_value
     val = pickle.loads(val)
 AttributeError: Can't get attribute 'enforce_login' on <module 'todo_app.hooks' from '/home/silpc-067/frappe-bench/apps/todo_app/todo_app/hooks.py'>
+2025-02-28 17:29:23,031 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for site67.local
+2025-02-28 17:29:29,224 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for site67.local
+2025-02-28 17:29:30,723 ERROR scheduler Skipped queueing payments.payment_gateways.doctype.razorpay_settings.razorpay_settings.capture_payment because it was found in queue for site67.local

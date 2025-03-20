@@ -1834,3 +1834,980 @@
 2025-02-27 15:17:38,332 INFO /usr/local/bin/bench worker
 2025-02-27 15:17:38,347 INFO /usr/local/bin/bench serve --port 8000
 2025-02-27 15:17:38,386 INFO /usr/local/bin/bench watch
+2025-02-28 16:10:50,466 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:10:52,444 INFO /usr/local/bin/bench start
+2025-02-28 16:10:52,698 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:10:52,708 INFO /usr/local/bin/bench worker
+2025-02-28 16:10:52,711 INFO /usr/local/bin/bench schedule
+2025-02-28 16:10:52,750 INFO /usr/local/bin/bench watch
+2025-02-28 16:11:54,741 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:12:03,289 INFO /usr/local/bin/bench clear-website-cache
+2025-02-28 16:12:08,199 INFO /usr/local/bin/bench start
+2025-02-28 16:12:08,459 INFO /usr/local/bin/bench schedule
+2025-02-28 16:12:08,469 INFO /usr/local/bin/bench watch
+2025-02-28 16:12:08,480 INFO /usr/local/bin/bench worker
+2025-02-28 16:12:08,496 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:17:51,960 INFO /usr/local/bin/bench doctor
+2025-02-28 16:19:09,558 INFO /usr/local/bin/bench doctor
+2025-02-28 16:19:24,119 INFO /usr/local/bin/bench console
+2025-02-28 16:20:08,279 INFO /usr/local/bin/bench start
+2025-02-28 16:20:08,516 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:20:08,543 INFO /usr/local/bin/bench worker
+2025-02-28 16:20:08,565 INFO /usr/local/bin/bench watch
+2025-02-28 16:20:08,579 INFO /usr/local/bin/bench schedule
+2025-02-28 16:23:35,387 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2025-02-28 16:23:58,102 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:24:02,644 INFO /usr/local/bin/bench start
+2025-02-28 16:24:02,881 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:24:02,893 INFO /usr/local/bin/bench watch
+2025-02-28 16:24:02,897 INFO /usr/local/bin/bench worker
+2025-02-28 16:24:02,926 INFO /usr/local/bin/bench schedule
+2025-02-28 16:27:19,117 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:27:21,749 INFO /usr/local/bin/bench start
+2025-02-28 16:27:21,983 INFO /usr/local/bin/bench watch
+2025-02-28 16:27:21,986 INFO /usr/local/bin/bench worker
+2025-02-28 16:27:22,029 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:27:22,031 INFO /usr/local/bin/bench schedule
+2025-02-28 16:35:28,648 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:35:31,035 INFO /usr/local/bin/bench start
+2025-02-28 16:35:31,283 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:35:31,289 INFO /usr/local/bin/bench schedule
+2025-02-28 16:35:31,295 INFO /usr/local/bin/bench watch
+2025-02-28 16:35:31,317 INFO /usr/local/bin/bench worker
+2025-02-28 16:35:43,666 INFO /usr/local/bin/bench execute project_manager.scripts.auto_close_tasks.auto_close_expired_tasks
+2025-02-28 16:38:26,908 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-02-28 16:40:34,701 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-02-28 16:46:41,520 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:46:43,544 INFO /usr/local/bin/bench start
+2025-02-28 16:46:43,821 INFO /usr/local/bin/bench schedule
+2025-02-28 16:46:43,826 INFO /usr/local/bin/bench worker
+2025-02-28 16:46:43,834 INFO /usr/local/bin/bench watch
+2025-02-28 16:46:43,846 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:50:17,109 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:50:21,736 INFO /usr/local/bin/bench start
+2025-02-28 16:50:22,010 INFO /usr/local/bin/bench schedule
+2025-02-28 16:50:22,014 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:50:22,038 INFO /usr/local/bin/bench worker
+2025-02-28 16:50:22,040 INFO /usr/local/bin/bench watch
+2025-02-28 16:51:37,835 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_update_tasks
+2025-02-28 16:53:04,273 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.update_task_status_on_project_end_date_change
+2025-02-28 16:53:59,899 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:54:01,814 INFO /usr/local/bin/bench start
+2025-02-28 16:54:02,039 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:54:02,057 INFO /usr/local/bin/bench watch
+2025-02-28 16:54:02,068 INFO /usr/local/bin/bench worker
+2025-02-28 16:54:02,096 INFO /usr/local/bin/bench schedule
+2025-02-28 16:54:13,423 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.auto_update_tasks
+2025-02-28 16:56:20,828 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.update_all_tasks
+2025-02-28 16:56:30,367 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:56:32,552 INFO /usr/local/bin/bench start
+2025-02-28 16:56:32,794 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:56:32,797 INFO /usr/local/bin/bench schedule
+2025-02-28 16:56:32,819 INFO /usr/local/bin/bench worker
+2025-02-28 16:56:32,831 INFO /usr/local/bin/bench watch
+2025-02-28 16:56:38,257 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.update_all_tasks
+2025-02-28 16:58:20,921 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.update_all_tasks
+2025-02-28 16:58:51,888 INFO /usr/local/bin/bench execute project_manager.services.auto_update_tasks.update_all_tasks
+2025-02-27 17:16:55,771 INFO /usr/local/bin/bench clear-cache
+2025-02-27 17:16:58,057 INFO /usr/local/bin/bench start
+2025-02-27 17:16:58,331 INFO /usr/local/bin/bench schedule
+2025-02-27 17:16:58,341 INFO /usr/local/bin/bench watch
+2025-02-27 17:16:58,350 INFO /usr/local/bin/bench worker
+2025-02-27 17:16:58,370 INFO /usr/local/bin/bench serve --port 8000
+2025-02-27 17:17:29,268 INFO /usr/local/bin/bench execute project_manager.scripts.auto_close_tasks.auto_close_expired_tasks
+2025-02-27 17:17:59,578 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-02-27 17:19:23,508 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-03-15 17:23:09,475 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-02-27 17:25:08,002 INFO /usr/local/bin/bench execute project_manager.services.auto_close_tasks.auto_close_expired_tasks
+2025-02-27 18:00:02,289 INFO /usr/local/bin/bench --verbose --site all backup
+2025-02-28 08:50:58,378 INFO /usr/local/bin/bench start
+2025-02-28 08:50:58,640 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 08:50:58,648 INFO /usr/local/bin/bench worker
+2025-02-28 08:50:58,648 INFO /usr/local/bin/bench schedule
+2025-02-28 08:50:58,669 INFO /usr/local/bin/bench watch
+2025-02-28 12:00:01,597 INFO /usr/local/bin/bench --verbose --site all backup
+2025-02-28 14:50:08,337 INFO /usr/local/bin/bench clear-cache
+2025-02-28 14:50:10,639 INFO /usr/local/bin/bench start
+2025-02-28 14:50:10,890 INFO /usr/local/bin/bench watch
+2025-02-28 14:50:10,893 INFO /usr/local/bin/bench schedule
+2025-02-28 14:50:10,925 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 14:50:10,929 INFO /usr/local/bin/bench worker
+2025-02-28 15:08:13,939 INFO /usr/local/bin/bench clear-cache
+2025-02-28 15:08:15,707 INFO /usr/local/bin/bench start
+2025-02-28 15:08:15,943 INFO /usr/local/bin/bench watch
+2025-02-28 15:08:15,945 INFO /usr/local/bin/bench schedule
+2025-02-28 15:08:15,964 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:08:15,989 INFO /usr/local/bin/bench worker
+2025-02-28 15:24:59,563 INFO /usr/local/bin/bench clear-cache
+2025-02-28 15:25:01,309 INFO /usr/local/bin/bench start
+2025-02-28 15:25:01,535 INFO /usr/local/bin/bench watch
+2025-02-28 15:25:01,555 INFO /usr/local/bin/bench schedule
+2025-02-28 15:25:01,576 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:25:01,680 INFO /usr/local/bin/bench worker
+2025-02-28 15:25:58,523 INFO /usr/local/bin/bench start
+2025-02-28 15:25:58,744 INFO /usr/local/bin/bench schedule
+2025-02-28 15:25:58,760 INFO /usr/local/bin/bench worker
+2025-02-28 15:25:58,773 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:25:58,788 INFO /usr/local/bin/bench watch
+2025-02-28 15:26:02,922 INFO /usr/local/bin/bench clear-cache
+2025-02-28 15:26:04,999 INFO /usr/local/bin/bench start
+2025-02-28 15:26:05,229 INFO /usr/local/bin/bench schedule
+2025-02-28 15:26:05,268 INFO /usr/local/bin/bench worker
+2025-02-28 15:26:05,286 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:26:05,344 INFO /usr/local/bin/bench watch
+2025-02-28 15:26:38,113 INFO /usr/local/bin/bench clear-cache
+2025-02-28 15:26:40,869 INFO /usr/local/bin/bench start
+2025-02-28 15:26:41,102 INFO /usr/local/bin/bench schedule
+2025-02-28 15:26:41,105 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:26:41,126 INFO /usr/local/bin/bench watch
+2025-02-28 15:26:41,130 INFO /usr/local/bin/bench worker
+2025-02-28 15:27:11,102 INFO /usr/local/bin/bench clear-cache
+2025-02-28 15:27:12,953 INFO /usr/local/bin/bench start
+2025-02-28 15:27:13,180 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 15:27:13,187 INFO /usr/local/bin/bench watch
+2025-02-28 15:27:13,198 INFO /usr/local/bin/bench schedule
+2025-02-28 15:27:13,237 INFO /usr/local/bin/bench worker
+2025-02-28 16:31:55,384 INFO /usr/local/bin/bench clear-cache
+2025-02-28 16:31:57,283 INFO /usr/local/bin/bench start
+2025-02-28 16:31:57,504 INFO /usr/local/bin/bench schedule
+2025-02-28 16:31:57,519 INFO /usr/local/bin/bench serve --port 8000
+2025-02-28 16:31:57,543 INFO /usr/local/bin/bench watch
+2025-02-28 16:31:57,562 INFO /usr/local/bin/bench worker
+2025-02-28 17:17:34,489 INFO /usr/local/bin/bench export
+2025-02-28 17:21:10,169 INFO /usr/local/bin/bench frappe --help
+2025-02-28 17:21:25,777 INFO /usr/local/bin/bench export-fixtures
+2025-02-28 17:21:49,264 INFO /usr/local/bin/bench setup requirement
+2025-02-28 17:21:49,272 WARNING /usr/local/bin/bench setup requirement executed with exit code 2
+2025-02-28 17:21:55,549 INFO /usr/local/bin/bench setup requirements
+2025-02-28 17:21:55,555 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-28 17:21:56,844 LOG Installing frappe
+2025-02-28 17:21:56,844 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-02-28 17:21:59,335 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-02-28 17:22:01,157 LOG Installing chat
+2025-02-28 17:22:01,157 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-02-28 17:22:02,727 LOG Installing india_compliance
+2025-02-28 17:22:02,727 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-02-28 17:22:04,866 LOG Installing library_management
+2025-02-28 17:22:04,866 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-02-28 17:22:06,986 LOG Installing hrms
+2025-02-28 17:22:06,986 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-02-28 17:22:09,111 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-02-28 17:22:24,446 LOG Installing todo_app
+2025-02-28 17:22:24,446 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-02-28 17:22:26,580 LOG Installing project_manager
+2025-02-28 17:22:26,580 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-02-28 17:22:28,815 LOG Installing payments
+2025-02-28 17:22:28,815 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-02-28 17:22:30,997 LOG Installing erpnext
+2025-02-28 17:22:30,997 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-02-28 17:22:33,216 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-02-28 17:22:43,130 INFO /usr/local/bin/bench build
+2025-02-28 17:30:44,412 INFO /usr/local/bin/bench migrate
+2025-02-28 17:32:15,953 INFO /usr/local/bin/bench migrate
+2025-02-28 17:36:58,686 INFO /usr/local/bin/bench migrate
+2025-02-28 17:38:06,667 INFO /usr/local/bin/bench migrate
+2025-02-28 17:40:26,830 INFO /usr/local/bin/bench migrate
+2025-02-28 17:40:46,046 INFO /usr/local/bin/bench build
+2025-02-28 17:42:00,808 INFO /usr/local/bin/bench migrate
+2025-02-28 18:00:01,644 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-03 08:37:23,883 INFO /usr/local/bin/bench start
+2025-03-03 08:37:24,143 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 08:37:24,164 INFO /usr/local/bin/bench watch
+2025-03-03 08:37:24,166 INFO /usr/local/bin/bench worker
+2025-03-03 08:37:24,176 INFO /usr/local/bin/bench schedule
+2025-03-03 09:10:06,132 INFO /usr/local/bin/bench export
+2025-03-03 09:10:14,815 INFO /usr/local/bin/bench export-fixtures
+2025-03-03 09:10:38,786 INFO /usr/local/bin/bench setup requirements
+2025-03-03 09:10:38,796 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-03 09:10:39,807 LOG Installing frappe
+2025-03-03 09:10:39,808 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-03 09:10:42,331 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-03 09:10:44,216 LOG Installing chat
+2025-03-03 09:10:44,217 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-03 09:10:45,784 LOG Installing india_compliance
+2025-03-03 09:10:45,785 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-03 09:10:47,934 LOG Installing library_management
+2025-03-03 09:10:47,934 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-03 09:10:50,075 LOG Installing hrms
+2025-03-03 09:10:50,075 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-03 09:10:52,186 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-03 09:11:07,307 LOG Installing todo_app
+2025-03-03 09:11:07,307 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-03 09:11:09,430 LOG Installing project_manager
+2025-03-03 09:11:09,430 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-03 09:11:11,561 LOG Installing payments
+2025-03-03 09:11:11,561 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-03 09:11:13,705 LOG Installing erpnext
+2025-03-03 09:11:13,706 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-03 09:11:15,873 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-03 09:11:29,789 INFO /usr/local/bin/bench build
+2025-03-03 09:12:21,279 INFO /usr/local/bin/bench migrate
+2025-03-03 09:22:18,869 INFO /usr/local/bin/bench update --patch
+2025-03-03 09:22:19,860 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-03-03 09:22:49,812 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2025-03-03 09:23:43,626 INFO /usr/local/bin/bench setup requirements
+2025-03-03 09:23:43,633 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-03 09:23:44,521 LOG Installing frappe
+2025-03-03 09:23:44,521 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-03 09:23:46,951 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-03 09:23:48,304 LOG Installing chat
+2025-03-03 09:23:48,305 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-03 09:23:49,847 LOG Installing india_compliance
+2025-03-03 09:23:49,847 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-03 09:23:51,922 LOG Installing library_management
+2025-03-03 09:23:51,922 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-03 09:23:54,005 LOG Installing hrms
+2025-03-03 09:23:54,005 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-03 09:23:56,092 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-03 09:24:09,646 LOG Installing todo_app
+2025-03-03 09:24:09,646 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-03 09:24:11,729 LOG Installing project_manager
+2025-03-03 09:24:11,729 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-03 09:24:13,825 LOG Installing payments
+2025-03-03 09:24:13,825 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-03 09:24:15,931 LOG Installing erpnext
+2025-03-03 09:24:15,931 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-03 09:24:18,047 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-03 09:24:39,524 INFO /usr/local/bin/bench build
+2025-03-03 09:28:30,779 INFO /usr/local/bin/bench migrate
+2025-03-03 09:34:09,917 INFO /usr/local/bin/bench list-apps
+2025-03-03 09:34:18,923 INFO /usr/local/bin/bench version
+2025-03-03 09:36:22,104 INFO /usr/local/bin/bench migrate
+2025-03-03 10:26:59,368 INFO /usr/local/bin/bench clear-cache
+2025-03-03 10:27:01,597 INFO /usr/local/bin/bench start
+2025-03-03 10:27:01,856 INFO /usr/local/bin/bench watch
+2025-03-03 10:27:01,856 INFO /usr/local/bin/bench worker
+2025-03-03 10:27:01,866 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 10:27:01,909 INFO /usr/local/bin/bench schedule
+2025-03-03 10:39:42,579 INFO /usr/local/bin/bench start
+2025-03-03 10:39:42,816 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 10:39:42,828 INFO /usr/local/bin/bench watch
+2025-03-03 10:39:42,832 INFO /usr/local/bin/bench worker
+2025-03-03 10:39:42,856 INFO /usr/local/bin/bench schedule
+2025-03-03 10:47:28,079 INFO /usr/local/bin/bench clear-cache
+2025-03-03 10:47:30,151 INFO /usr/local/bin/bench start
+2025-03-03 10:47:30,375 INFO /usr/local/bin/bench schedule
+2025-03-03 10:47:30,383 INFO /usr/local/bin/bench worker
+2025-03-03 10:47:30,414 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 10:47:30,431 INFO /usr/local/bin/bench watch
+2025-03-03 11:00:14,059 INFO /usr/local/bin/bench clear-cache
+2025-03-03 11:00:16,153 INFO /usr/local/bin/bench start
+2025-03-03 11:00:16,410 INFO /usr/local/bin/bench watch
+2025-03-03 11:00:16,413 INFO /usr/local/bin/bench schedule
+2025-03-03 11:00:16,444 INFO /usr/local/bin/bench worker
+2025-03-03 11:00:16,464 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 11:14:14,124 INFO /usr/local/bin/bench clear-cache
+2025-03-03 11:14:16,020 INFO /usr/local/bin/bench start
+2025-03-03 11:14:16,239 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 11:14:16,242 INFO /usr/local/bin/bench watch
+2025-03-03 11:14:16,250 INFO /usr/local/bin/bench schedule
+2025-03-03 11:14:16,379 INFO /usr/local/bin/bench worker
+2025-03-03 11:18:50,011 INFO /usr/local/bin/bench clear-cache
+2025-03-03 11:18:52,717 INFO /usr/local/bin/bench start
+2025-03-03 11:18:52,945 INFO /usr/local/bin/bench schedule
+2025-03-03 11:18:52,977 INFO /usr/local/bin/bench worker
+2025-03-03 11:18:52,986 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 11:18:53,030 INFO /usr/local/bin/bench watch
+2025-03-03 12:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-03 12:20:50,261 INFO /usr/local/bin/bench clear-cache
+2025-03-03 12:21:10,791 INFO /usr/local/bin/bench start
+2025-03-03 12:21:11,023 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 12:21:11,029 INFO /usr/local/bin/bench worker
+2025-03-03 12:21:11,058 INFO /usr/local/bin/bench watch
+2025-03-03 12:21:11,105 INFO /usr/local/bin/bench schedule
+2025-03-03 12:27:45,949 INFO /usr/local/bin/bench clear-cache
+2025-03-03 12:27:48,178 INFO /usr/local/bin/bench start
+2025-03-03 12:27:48,414 INFO /usr/local/bin/bench watch
+2025-03-03 12:27:48,424 INFO /usr/local/bin/bench schedule
+2025-03-03 12:27:48,425 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 12:27:48,428 INFO /usr/local/bin/bench worker
+2025-03-03 12:28:18,080 INFO /usr/local/bin/bench clear-cache
+2025-03-03 12:28:19,991 INFO /usr/local/bin/bench start
+2025-03-03 12:28:20,223 INFO /usr/local/bin/bench worker
+2025-03-03 12:28:20,235 INFO /usr/local/bin/bench schedule
+2025-03-03 12:28:20,243 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 12:28:20,278 INFO /usr/local/bin/bench watch
+2025-03-03 12:31:55,352 INFO /usr/local/bin/bench clear-cache
+2025-03-03 12:31:57,247 INFO /usr/local/bin/bench start
+2025-03-03 12:31:57,468 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 12:31:57,487 INFO /usr/local/bin/bench schedule
+2025-03-03 12:31:57,489 INFO /usr/local/bin/bench worker
+2025-03-03 12:31:57,507 INFO /usr/local/bin/bench watch
+2025-03-03 12:57:00,977 INFO /usr/local/bin/bench clear-cache
+2025-03-03 12:57:03,103 INFO /usr/local/bin/bench start
+2025-03-03 12:57:03,352 INFO /usr/local/bin/bench watch
+2025-03-03 12:57:03,357 INFO /usr/local/bin/bench schedule
+2025-03-03 12:57:03,401 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 12:57:03,434 INFO /usr/local/bin/bench worker
+2025-03-03 15:28:39,579 INFO /usr/local/bin/bench clear-cache
+2025-03-03 15:28:42,021 INFO /usr/local/bin/bench start
+2025-03-03 15:28:42,330 INFO /usr/local/bin/bench worker
+2025-03-03 15:28:42,336 INFO /usr/local/bin/bench watch
+2025-03-03 15:28:42,349 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 15:28:42,388 INFO /usr/local/bin/bench schedule
+2025-03-03 17:41:55,684 INFO /usr/local/bin/bench clear-cache
+2025-03-03 17:41:57,798 INFO /usr/local/bin/bench start
+2025-03-03 17:41:58,119 INFO /usr/local/bin/bench watch
+2025-03-03 17:41:58,152 INFO /usr/local/bin/bench schedule
+2025-03-03 17:41:58,224 INFO /usr/local/bin/bench serve --port 8000
+2025-03-03 17:41:58,281 INFO /usr/local/bin/bench worker
+2025-03-03 17:44:28,952 INFO /usr/local/bin/bench execute project_manager.services.auto_onhold_projects.update_tasks_for_on_hold_projects
+2025-03-03 17:44:55,030 INFO /usr/local/bin/bench execute project_manager.services.auto_onhold_projects.update_tasks_for_on_hold_projects
+2025-03-03 18:00:01,629 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-04 08:46:32,900 INFO /usr/local/bin/bench start
+2025-03-04 08:46:33,155 INFO /usr/local/bin/bench worker
+2025-03-04 08:46:33,157 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 08:46:33,167 INFO /usr/local/bin/bench watch
+2025-03-04 08:46:33,188 INFO /usr/local/bin/bench schedule
+2025-03-04 11:02:57,504 INFO /usr/local/bin/bench clear-cache
+2025-03-04 11:03:07,068 INFO /usr/local/bin/bench start
+2025-03-04 11:03:07,302 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 11:03:07,303 INFO /usr/local/bin/bench watch
+2025-03-04 11:03:07,304 INFO /usr/local/bin/bench schedule
+2025-03-04 11:03:07,338 INFO /usr/local/bin/bench worker
+2025-03-04 11:07:04,616 INFO /usr/local/bin/bench clear-cache
+2025-03-04 11:07:06,543 INFO /usr/local/bin/bench start
+2025-03-04 11:07:06,804 INFO /usr/local/bin/bench schedule
+2025-03-04 11:07:06,806 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 11:07:06,815 INFO /usr/local/bin/bench worker
+2025-03-04 11:07:06,864 INFO /usr/local/bin/bench watch
+2025-03-04 11:09:22,363 INFO /usr/local/bin/bench clear-cache
+2025-03-04 11:09:24,268 INFO /usr/local/bin/bench start
+2025-03-04 11:09:24,481 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 11:09:24,498 INFO /usr/local/bin/bench watch
+2025-03-04 11:09:24,523 INFO /usr/local/bin/bench worker
+2025-03-04 11:09:24,529 INFO /usr/local/bin/bench schedule
+2025-03-04 11:30:40,101 INFO /usr/local/bin/bench clear-cache
+2025-03-04 11:30:43,164 INFO /usr/local/bin/bench start
+2025-03-04 11:30:43,390 INFO /usr/local/bin/bench schedule
+2025-03-04 11:30:43,404 INFO /usr/local/bin/bench watch
+2025-03-04 11:30:43,408 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 11:30:43,455 INFO /usr/local/bin/bench worker
+2025-03-04 12:00:01,663 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-04 15:15:39,661 INFO /usr/local/bin/bench clear-cache
+2025-03-04 15:15:41,832 INFO /usr/local/bin/bench start
+2025-03-04 15:15:42,089 INFO /usr/local/bin/bench worker
+2025-03-04 15:15:42,090 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 15:15:42,098 INFO /usr/local/bin/bench schedule
+2025-03-04 15:15:42,130 INFO /usr/local/bin/bench watch
+2025-03-04 15:41:52,356 INFO /usr/local/bin/bench export-fixtures
+2025-03-04 15:42:17,564 INFO /usr/local/bin/bench setup requirements
+2025-03-04 15:42:17,571 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-04 15:42:18,743 LOG Installing frappe
+2025-03-04 15:42:18,744 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-04 15:42:21,263 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-04 15:42:22,663 LOG Installing chat
+2025-03-04 15:42:22,663 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-04 15:42:24,259 LOG Installing india_compliance
+2025-03-04 15:42:24,260 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-04 15:42:26,385 LOG Installing library_management
+2025-03-04 15:42:26,385 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-04 15:42:28,490 LOG Installing hrms
+2025-03-04 15:42:28,490 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-04 15:42:30,578 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-04 15:42:47,017 LOG Installing todo_app
+2025-03-04 15:42:47,018 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-04 15:42:49,194 LOG Installing project_manager
+2025-03-04 15:42:49,194 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-04 15:42:51,305 LOG Installing payments
+2025-03-04 15:42:51,305 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-04 15:42:53,444 LOG Installing erpnext
+2025-03-04 15:42:53,444 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-04 15:42:55,654 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-04 15:43:04,396 INFO /usr/local/bin/bench build
+2025-03-04 15:45:25,473 INFO /usr/local/bin/bench migrate
+2025-03-04 15:46:28,061 INFO /usr/local/bin/bench migrate
+2025-03-04 15:52:11,767 INFO /usr/local/bin/bench clear-cache
+2025-03-04 15:52:14,072 INFO /usr/local/bin/bench start
+2025-03-04 15:52:14,326 INFO /usr/local/bin/bench watch
+2025-03-04 15:52:14,338 INFO /usr/local/bin/bench worker
+2025-03-04 15:52:14,342 INFO /usr/local/bin/bench schedule
+2025-03-04 15:52:14,362 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 15:56:00,327 INFO /usr/local/bin/bench clear-cache
+2025-03-04 15:56:02,134 INFO /usr/local/bin/bench start
+2025-03-04 15:56:02,362 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 15:56:02,375 INFO /usr/local/bin/bench worker
+2025-03-04 15:56:02,378 INFO /usr/local/bin/bench schedule
+2025-03-04 15:56:02,383 INFO /usr/local/bin/bench watch
+2025-03-04 15:56:33,175 INFO /usr/local/bin/bench clear-cache
+2025-03-04 15:56:35,129 INFO /usr/local/bin/bench start
+2025-03-04 15:56:35,351 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 15:56:35,367 INFO /usr/local/bin/bench worker
+2025-03-04 15:56:35,387 INFO /usr/local/bin/bench schedule
+2025-03-04 15:56:35,424 INFO /usr/local/bin/bench watch
+2025-03-04 15:59:35,978 INFO /usr/local/bin/bench clear-cache
+2025-03-04 15:59:37,993 INFO /usr/local/bin/bench start
+2025-03-04 15:59:38,226 INFO /usr/local/bin/bench worker
+2025-03-04 15:59:38,226 INFO /usr/local/bin/bench watch
+2025-03-04 15:59:38,230 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 15:59:38,283 INFO /usr/local/bin/bench schedule
+2025-03-04 16:00:10,444 INFO /usr/local/bin/bench clear-cache
+2025-03-04 16:00:14,393 INFO /usr/local/bin/bench start
+2025-03-04 16:00:14,608 INFO /usr/local/bin/bench watch
+2025-03-04 16:00:14,617 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 16:00:14,623 INFO /usr/local/bin/bench worker
+2025-03-04 16:00:14,639 INFO /usr/local/bin/bench schedule
+2025-03-04 16:02:47,338 INFO /usr/local/bin/bench clear-cache
+2025-03-04 16:02:49,249 INFO /usr/local/bin/bench start
+2025-03-04 16:02:49,471 INFO /usr/local/bin/bench worker
+2025-03-04 16:02:49,485 INFO /usr/local/bin/bench schedule
+2025-03-04 16:02:49,495 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 16:02:49,533 INFO /usr/local/bin/bench watch
+2025-03-04 16:05:06,848 INFO /usr/local/bin/bench export-fixtures
+2025-03-04 16:06:35,325 INFO /usr/local/bin/bench clear-cache
+2025-03-04 16:06:37,335 INFO /usr/local/bin/bench start
+2025-03-04 16:06:37,586 INFO /usr/local/bin/bench schedule
+2025-03-04 16:06:37,601 INFO /usr/local/bin/bench watch
+2025-03-04 16:06:37,605 INFO /usr/local/bin/bench worker
+2025-03-04 16:06:37,641 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 16:10:11,949 INFO /usr/local/bin/bench export-fixtures
+2025-03-04 16:10:20,396 INFO /usr/local/bin/bench setup requirements
+2025-03-04 16:10:20,403 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-04 16:10:21,376 LOG Installing frappe
+2025-03-04 16:10:21,376 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-04 16:10:23,855 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-04 16:10:25,540 LOG Installing chat
+2025-03-04 16:10:25,540 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-04 16:10:27,116 LOG Installing india_compliance
+2025-03-04 16:10:27,116 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-04 16:10:29,230 LOG Installing library_management
+2025-03-04 16:10:29,230 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-04 16:10:31,372 LOG Installing hrms
+2025-03-04 16:10:31,373 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-04 16:10:33,497 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-04 16:10:48,292 LOG Installing todo_app
+2025-03-04 16:10:48,292 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-04 16:10:50,409 LOG Installing project_manager
+2025-03-04 16:10:50,409 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-04 16:10:52,522 LOG Installing payments
+2025-03-04 16:10:52,522 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-04 16:10:54,650 LOG Installing erpnext
+2025-03-04 16:10:54,650 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-04 16:10:56,797 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-04 16:11:02,989 INFO /usr/local/bin/bench build
+2025-03-04 16:12:16,537 INFO /usr/local/bin/bench migrate
+2025-03-04 16:36:59,128 INFO /usr/local/bin/bench clear-cache
+2025-03-04 16:37:01,067 INFO /usr/local/bin/bench start
+2025-03-04 16:37:01,298 INFO /usr/local/bin/bench worker
+2025-03-04 16:37:01,308 INFO /usr/local/bin/bench watch
+2025-03-04 16:37:01,311 INFO /usr/local/bin/bench schedule
+2025-03-04 16:37:01,329 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 16:49:07,166 INFO /usr/local/bin/bench clear-cache
+2025-03-04 16:49:09,108 INFO /usr/local/bin/bench start
+2025-03-04 16:49:09,401 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 16:49:09,411 INFO /usr/local/bin/bench worker
+2025-03-04 16:49:09,419 INFO /usr/local/bin/bench schedule
+2025-03-04 16:49:09,426 INFO /usr/local/bin/bench watch
+2025-03-04 17:32:54,288 INFO /usr/local/bin/bench clear-cache
+2025-03-04 17:32:56,109 INFO /usr/local/bin/bench start
+2025-03-04 17:32:56,345 INFO /usr/local/bin/bench watch
+2025-03-04 17:32:56,358 INFO /usr/local/bin/bench serve --port 8000
+2025-03-04 17:32:56,369 INFO /usr/local/bin/bench schedule
+2025-03-04 17:32:56,424 INFO /usr/local/bin/bench worker
+2025-03-04 18:00:01,643 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-05 08:39:19,015 INFO /usr/local/bin/bench start
+2025-03-05 08:39:19,282 INFO /usr/local/bin/bench watch
+2025-03-05 08:39:19,283 INFO /usr/local/bin/bench schedule
+2025-03-05 08:39:19,285 INFO /usr/local/bin/bench serve --port 8000
+2025-03-05 08:39:19,305 INFO /usr/local/bin/bench worker
+2025-03-05 11:15:47,854 INFO /usr/local/bin/bench export-fixtures
+2025-03-05 11:16:03,671 INFO /usr/local/bin/bench setup requirements
+2025-03-05 11:16:03,680 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-05 11:16:04,663 LOG Installing frappe
+2025-03-05 11:16:04,664 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-05 11:16:07,127 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-05 11:16:08,389 LOG Installing chat
+2025-03-05 11:16:08,390 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-05 11:16:09,954 LOG Installing india_compliance
+2025-03-05 11:16:09,954 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-05 11:16:12,065 LOG Installing library_management
+2025-03-05 11:16:12,065 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-05 11:16:14,176 LOG Installing hrms
+2025-03-05 11:16:14,176 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-05 11:16:16,283 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-05 11:16:31,541 LOG Installing todo_app
+2025-03-05 11:16:31,541 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-05 11:16:33,609 LOG Installing project_manager
+2025-03-05 11:16:33,609 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-05 11:16:35,705 LOG Installing payments
+2025-03-05 11:16:35,705 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-05 11:16:37,814 LOG Installing erpnext
+2025-03-05 11:16:37,815 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-05 11:16:39,955 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-05 11:17:01,833 INFO /usr/local/bin/bench build
+2025-03-05 11:17:48,070 INFO /usr/local/bin/bench migrate
+2025-03-05 11:47:10,112 INFO /usr/local/bin/bench start
+2025-03-05 11:47:10,393 INFO /usr/local/bin/bench serve --port 8000
+2025-03-05 11:47:10,397 INFO /usr/local/bin/bench schedule
+2025-03-05 11:47:10,402 INFO /usr/local/bin/bench worker
+2025-03-05 11:47:10,418 INFO /usr/local/bin/bench watch
+2025-03-05 12:00:01,550 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-05 15:11:19,558 INFO /usr/local/bin/bench clear-cache
+2025-03-05 15:11:25,234 INFO /usr/local/bin/bench start
+2025-03-05 15:11:25,473 INFO /usr/local/bin/bench watch
+2025-03-05 15:11:25,482 INFO /usr/local/bin/bench serve --port 8000
+2025-03-05 15:11:25,484 INFO /usr/local/bin/bench schedule
+2025-03-05 15:11:25,485 INFO /usr/local/bin/bench worker
+2025-03-05 17:22:06,780 INFO /usr/local/bin/bench export-fixtures
+2025-03-05 17:22:14,957 INFO /usr/local/bin/bench setup requirements
+2025-03-05 17:22:14,966 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-05 17:22:16,119 LOG Installing frappe
+2025-03-05 17:22:16,119 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-05 17:22:18,609 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-05 17:22:21,015 LOG Installing chat
+2025-03-05 17:22:21,016 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-05 17:22:22,595 LOG Installing india_compliance
+2025-03-05 17:22:22,595 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-05 17:22:24,713 LOG Installing library_management
+2025-03-05 17:22:24,714 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-05 17:22:26,845 LOG Installing hrms
+2025-03-05 17:22:26,845 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-05 17:22:28,965 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-05 17:22:44,075 LOG Installing todo_app
+2025-03-05 17:22:44,076 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-05 17:22:46,220 LOG Installing project_manager
+2025-03-05 17:22:46,220 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-05 17:22:48,314 LOG Installing payments
+2025-03-05 17:22:48,314 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-05 17:22:50,435 LOG Installing erpnext
+2025-03-05 17:22:50,436 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-05 17:22:52,568 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-05 17:23:08,908 INFO /usr/local/bin/bench build
+2025-03-05 17:31:18,424 INFO /usr/local/bin/bench start
+2025-03-05 17:31:18,697 INFO /usr/local/bin/bench schedule
+2025-03-05 17:31:18,704 INFO /usr/local/bin/bench serve --port 8000
+2025-03-05 17:31:18,707 INFO /usr/local/bin/bench watch
+2025-03-05 17:31:18,732 INFO /usr/local/bin/bench worker
+2025-03-05 17:32:13,644 INFO /usr/local/bin/bench export-fixtures
+2025-03-05 17:32:29,328 INFO /usr/local/bin/bench setup requirements
+2025-03-05 17:32:29,336 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-05 17:32:30,295 LOG Installing frappe
+2025-03-05 17:32:30,295 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-05 17:32:32,763 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-05 17:32:33,998 LOG Installing chat
+2025-03-05 17:32:33,998 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-05 17:32:35,557 LOG Installing india_compliance
+2025-03-05 17:32:35,557 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-05 17:32:37,640 LOG Installing library_management
+2025-03-05 17:32:37,641 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-05 17:32:39,741 LOG Installing hrms
+2025-03-05 17:32:39,741 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-05 17:32:41,827 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-05 17:32:55,117 LOG Installing todo_app
+2025-03-05 17:32:55,117 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-05 17:32:57,239 LOG Installing project_manager
+2025-03-05 17:32:57,239 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-05 17:32:59,327 LOG Installing payments
+2025-03-05 17:32:59,327 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-05 17:33:01,438 LOG Installing erpnext
+2025-03-05 17:33:01,439 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-05 17:33:03,551 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-05 17:33:14,994 INFO /usr/local/bin/bench build
+2025-03-05 17:34:06,221 INFO /usr/local/bin/bench migrate
+2025-03-05 18:00:01,789 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-06 08:37:33,034 INFO /usr/local/bin/bench start
+2025-03-06 08:37:33,310 INFO /usr/local/bin/bench schedule
+2025-03-06 08:37:33,319 INFO /usr/local/bin/bench worker
+2025-03-06 08:37:33,320 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 08:37:33,359 INFO /usr/local/bin/bench watch
+2025-03-06 12:00:01,557 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-06 12:13:18,088 INFO /usr/local/bin/bench start
+2025-03-06 12:13:18,359 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 12:13:18,364 INFO /usr/local/bin/bench watch
+2025-03-06 12:13:18,378 INFO /usr/local/bin/bench schedule
+2025-03-06 12:13:18,387 INFO /usr/local/bin/bench worker
+2025-03-06 12:53:15,279 INFO /usr/local/bin/bench start
+2025-03-06 12:53:15,542 INFO /usr/local/bin/bench watch
+2025-03-06 12:53:15,557 INFO /usr/local/bin/bench schedule
+2025-03-06 12:53:15,562 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 12:53:15,585 INFO /usr/local/bin/bench worker
+2025-03-06 15:43:02,129 INFO /usr/local/bin/bench start
+2025-03-06 15:43:02,390 INFO /usr/local/bin/bench worker
+2025-03-06 15:43:02,400 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 15:43:02,404 INFO /usr/local/bin/bench schedule
+2025-03-06 15:43:02,418 INFO /usr/local/bin/bench watch
+2025-03-06 15:49:36,404 INFO /usr/local/bin/bench start
+2025-03-06 15:49:36,674 INFO /usr/local/bin/bench watch
+2025-03-06 15:49:36,681 INFO /usr/local/bin/bench schedule
+2025-03-06 15:49:36,688 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 15:49:36,715 INFO /usr/local/bin/bench worker
+2025-03-06 16:31:12,868 INFO /usr/local/bin/bench clear-cache
+2025-03-06 16:31:17,366 INFO /usr/local/bin/bench start
+2025-03-06 16:31:17,624 INFO /usr/local/bin/bench serve --port 8000
+2025-03-06 16:31:17,627 INFO /usr/local/bin/bench schedule
+2025-03-06 16:31:17,636 INFO /usr/local/bin/bench worker
+2025-03-06 16:31:17,679 INFO /usr/local/bin/bench watch
+2025-03-06 18:00:02,050 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-07 08:36:58,291 INFO /usr/local/bin/bench start
+2025-03-07 08:36:58,541 INFO /usr/local/bin/bench schedule
+2025-03-07 08:36:58,543 INFO /usr/local/bin/bench watch
+2025-03-07 08:36:58,550 INFO /usr/local/bin/bench serve --port 8000
+2025-03-07 08:36:58,563 INFO /usr/local/bin/bench worker
+2025-03-07 12:00:01,537 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-07 12:35:56,238 INFO /usr/local/bin/bench start
+2025-03-07 12:35:56,503 INFO /usr/local/bin/bench schedule
+2025-03-07 12:35:56,509 INFO /usr/local/bin/bench watch
+2025-03-07 12:35:56,512 INFO /usr/local/bin/bench serve --port 8000
+2025-03-07 12:35:56,560 INFO /usr/local/bin/bench worker
+2025-03-07 17:47:13,713 INFO /usr/local/bin/bench export-fixtures
+2025-03-07 17:47:24,952 INFO /usr/local/bin/bench setup requirements
+2025-03-07 17:47:24,960 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-07 17:47:26,337 LOG Installing frappe
+2025-03-07 17:47:26,337 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-07 17:47:28,830 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-07 17:47:30,511 LOG Installing chat
+2025-03-07 17:47:30,511 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-07 17:47:32,100 LOG Installing india_compliance
+2025-03-07 17:47:32,100 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-07 17:47:34,229 LOG Installing library_management
+2025-03-07 17:47:34,229 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-07 17:47:36,349 LOG Installing hrms
+2025-03-07 17:47:36,349 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-07 17:47:38,460 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-07 17:47:53,953 LOG Installing todo_app
+2025-03-07 17:47:53,953 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-07 17:47:56,169 LOG Installing project_manager
+2025-03-07 17:47:56,169 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-07 17:47:58,275 LOG Installing payments
+2025-03-07 17:47:58,276 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-07 17:48:00,419 LOG Installing erpnext
+2025-03-07 17:48:00,419 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-07 17:48:02,561 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-07 17:55:30,310 INFO /usr/local/bin/bench build
+2025-03-07 18:00:04,726 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-09 12:00:01,710 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-09 18:00:01,869 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-10 00:00:01,731 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-10 06:00:01,490 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-10 08:34:00,535 INFO /usr/local/bin/bench start
+2025-03-10 08:34:00,928 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 08:34:00,934 INFO /usr/local/bin/bench watch
+2025-03-10 08:34:00,943 INFO /usr/local/bin/bench worker
+2025-03-10 08:34:00,968 INFO /usr/local/bin/bench schedule
+2025-03-10 08:34:22,952 INFO /usr/local/bin/bench export-fixtures
+2025-03-10 08:34:47,673 INFO /usr/local/bin/bench setup requirements
+2025-03-10 08:34:47,682 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-10 08:34:48,848 LOG Installing frappe
+2025-03-10 08:34:48,848 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-10 08:34:52,499 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-10 08:34:54,325 LOG Installing chat
+2025-03-10 08:34:54,325 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-10 08:34:55,851 LOG Installing india_compliance
+2025-03-10 08:34:55,851 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-10 08:34:57,931 LOG Installing library_management
+2025-03-10 08:34:57,931 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-10 08:35:00,014 LOG Installing hrms
+2025-03-10 08:35:00,015 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-10 08:35:02,098 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-10 08:35:16,137 LOG Installing todo_app
+2025-03-10 08:35:16,137 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-10 08:35:18,195 LOG Installing project_manager
+2025-03-10 08:35:18,196 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-10 08:35:20,285 LOG Installing payments
+2025-03-10 08:35:20,285 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-10 08:35:22,388 LOG Installing erpnext
+2025-03-10 08:35:22,388 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-10 08:35:24,486 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-10 08:36:58,636 INFO /usr/local/bin/bench build
+2025-03-10 08:38:01,732 INFO /usr/local/bin/bench migrate
+2025-03-10 09:23:39,095 INFO /usr/local/bin/bench clear-cache
+2025-03-10 09:23:41,089 INFO /usr/local/bin/bench start
+2025-03-10 09:23:41,352 INFO /usr/local/bin/bench schedule
+2025-03-10 09:23:41,397 INFO /usr/local/bin/bench watch
+2025-03-10 09:23:41,402 INFO /usr/local/bin/bench worker
+2025-03-10 09:23:41,516 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 10:45:01,344 INFO /usr/local/bin/bench start
+2025-03-10 10:45:01,575 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 10:45:01,579 INFO /usr/local/bin/bench watch
+2025-03-10 10:45:01,583 INFO /usr/local/bin/bench worker
+2025-03-10 10:45:01,625 INFO /usr/local/bin/bench schedule
+2025-03-10 12:00:01,403 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-10 14:11:17,630 INFO /usr/local/bin/bench pip install jedi==0.17.2 pygls==0.10.2
+2025-03-10 14:15:17,622 INFO /usr/local/bin/bench start
+2025-03-10 14:15:17,879 INFO /usr/local/bin/bench worker
+2025-03-10 14:15:17,915 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:15:17,978 INFO /usr/local/bin/bench watch
+2025-03-10 14:15:17,982 INFO /usr/local/bin/bench schedule
+2025-03-10 14:15:21,619 INFO /usr/local/bin/bench start
+2025-03-10 14:15:21,847 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:15:21,954 INFO /usr/local/bin/bench schedule
+2025-03-10 14:15:21,956 INFO /usr/local/bin/bench worker
+2025-03-10 14:15:21,967 INFO /usr/local/bin/bench watch
+2025-03-10 14:15:32,322 INFO /usr/local/bin/bench clear-cache
+2025-03-10 14:15:36,146 INFO /usr/local/bin/bench start
+2025-03-10 14:15:36,411 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:15:36,413 INFO /usr/local/bin/bench worker
+2025-03-10 14:15:36,426 INFO /usr/local/bin/bench schedule
+2025-03-10 14:15:36,454 INFO /usr/local/bin/bench watch
+2025-03-10 14:18:08,651 INFO /usr/local/bin/bench start
+2025-03-10 14:18:08,890 INFO /usr/local/bin/bench schedule
+2025-03-10 14:18:08,926 INFO /usr/local/bin/bench watch
+2025-03-10 14:18:08,942 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:18:08,969 INFO /usr/local/bin/bench worker
+2025-03-10 14:18:10,934 INFO /usr/local/bin/bench start
+2025-03-10 14:18:11,156 INFO /usr/local/bin/bench watch
+2025-03-10 14:18:11,174 INFO /usr/local/bin/bench schedule
+2025-03-10 14:18:11,184 INFO /usr/local/bin/bench worker
+2025-03-10 14:18:11,205 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:21:42,394 INFO /usr/local/bin/bench start
+2025-03-10 14:21:42,616 INFO /usr/local/bin/bench watch
+2025-03-10 14:21:42,619 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:21:42,626 INFO /usr/local/bin/bench schedule
+2025-03-10 14:21:42,641 INFO /usr/local/bin/bench worker
+2025-03-10 14:22:19,793 INFO /usr/local/bin/bench start
+2025-03-10 14:22:20,088 INFO /usr/local/bin/bench watch
+2025-03-10 14:22:20,096 INFO /usr/local/bin/bench worker
+2025-03-10 14:22:20,193 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:22:20,251 INFO /usr/local/bin/bench schedule
+2025-03-10 14:24:14,108 INFO /usr/local/bin/bench worker --queue default
+2025-03-10 14:24:55,861 INFO /usr/local/bin/bench logs --tail 50
+2025-03-10 14:25:58,052 INFO /usr/local/bin/bench worker --queue default
+2025-03-10 14:27:33,807 INFO /usr/local/bin/bench clear-cache
+2025-03-10 14:27:40,542 INFO /usr/local/bin/bench start
+2025-03-10 14:27:40,775 INFO /usr/local/bin/bench watch
+2025-03-10 14:27:40,786 INFO /usr/local/bin/bench worker
+2025-03-10 14:27:40,814 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:27:40,831 INFO /usr/local/bin/bench schedule
+2025-03-10 14:29:05,025 INFO /usr/local/bin/bench start
+2025-03-10 14:29:05,267 INFO /usr/local/bin/bench schedule
+2025-03-10 14:29:05,276 INFO /usr/local/bin/bench worker
+2025-03-10 14:29:05,276 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 14:29:05,289 INFO /usr/local/bin/bench watch
+2025-03-10 14:29:40,523 INFO /usr/local/bin/bench setup requirements
+2025-03-10 14:29:40,529 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-10 14:29:41,547 LOG Installing frappe
+2025-03-10 14:29:41,548 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-10 14:29:44,625 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-10 14:29:46,047 LOG Installing chat
+2025-03-10 14:29:46,048 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-10 14:29:47,587 LOG Installing india_compliance
+2025-03-10 14:29:47,587 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-10 14:29:49,814 LOG Installing library_management
+2025-03-10 14:29:49,814 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-10 14:29:51,931 LOG Installing hrms
+2025-03-10 14:29:51,931 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-10 14:29:54,072 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-10 14:30:05,505 WARNING /usr/local/bin/bench setup requirements executed with exit code 1
+2025-03-10 14:32:00,811 INFO /usr/local/bin/bench start
+2025-03-10 14:32:01,033 INFO /usr/local/bin/bench schedule
+2025-03-10 14:32:01,041 INFO /usr/local/bin/bench watch
+2025-03-10 14:32:01,049 INFO /usr/local/bin/bench worker
+2025-03-10 14:32:01,119 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 15:12:39,024 INFO /usr/local/bin/bench clear-cache
+2025-03-10 15:12:41,781 INFO /usr/local/bin/bench start
+2025-03-10 15:12:42,009 INFO /usr/local/bin/bench watch
+2025-03-10 15:12:42,022 INFO /usr/local/bin/bench worker
+2025-03-10 15:12:42,039 INFO /usr/local/bin/bench schedule
+2025-03-10 15:12:42,039 INFO /usr/local/bin/bench serve --port 8000
+2025-03-10 17:09:51,376 INFO /usr/local/bin/bench export-fixtures
+2025-03-10 17:10:02,410 INFO /usr/local/bin/bench setup requirements
+2025-03-10 17:10:02,418 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-10 17:10:03,564 LOG Installing frappe
+2025-03-10 17:10:03,564 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-10 17:10:06,079 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-10 17:10:07,649 LOG Installing chat
+2025-03-10 17:10:07,650 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-10 17:10:09,260 LOG Installing india_compliance
+2025-03-10 17:10:09,260 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-10 17:10:11,359 LOG Installing library_management
+2025-03-10 17:10:11,359 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-10 17:10:13,467 LOG Installing hrms
+2025-03-10 17:10:13,467 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-10 17:10:15,611 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-10 17:10:31,108 LOG Installing todo_app
+2025-03-10 17:10:31,109 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-10 17:10:34,058 LOG Installing project_manager
+2025-03-10 17:10:34,058 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-10 17:10:36,198 LOG Installing payments
+2025-03-10 17:10:36,199 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-10 17:10:38,340 LOG Installing erpnext
+2025-03-10 17:10:38,340 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-10 17:10:40,517 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-10 17:10:59,191 INFO /usr/local/bin/bench build
+2025-03-10 17:13:03,441 INFO /usr/local/bin/bench migrate
+2025-03-10 17:49:57,811 INFO /usr/local/bin/bench export-fixtures
+2025-03-10 17:50:09,916 INFO /usr/local/bin/bench setup requirements
+2025-03-10 17:50:09,925 DEBUG /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-10 17:50:11,101 LOG Installing frappe
+2025-03-10 17:50:11,101 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/frappe 
+2025-03-10 17:50:13,794 DEBUG cd /home/silpc-067/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-10 17:50:15,060 LOG Installing chat
+2025-03-10 17:50:15,061 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/chat 
+2025-03-10 17:50:16,619 LOG Installing india_compliance
+2025-03-10 17:50:16,619 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/india_compliance 
+2025-03-10 17:50:18,752 LOG Installing library_management
+2025-03-10 17:50:18,752 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/library_management 
+2025-03-10 17:50:20,883 LOG Installing hrms
+2025-03-10 17:50:20,883 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/hrms 
+2025-03-10 17:50:23,009 DEBUG cd /home/silpc-067/frappe-bench/apps/hrms && yarn install --check-files
+2025-03-10 17:50:37,591 LOG Installing todo_app
+2025-03-10 17:50:37,591 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/todo_app 
+2025-03-10 17:50:39,719 LOG Installing project_manager
+2025-03-10 17:50:39,719 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/project_manager 
+2025-03-10 17:50:41,814 LOG Installing payments
+2025-03-10 17:50:41,814 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/payments 
+2025-03-10 17:50:43,938 LOG Installing erpnext
+2025-03-10 17:50:43,938 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/erpnext 
+2025-03-10 17:50:46,081 DEBUG cd /home/silpc-067/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-10 17:50:50,322 INFO /usr/local/bin/bench build
+2025-03-10 17:51:49,508 INFO /usr/local/bin/bench migrate
+2025-03-11 08:41:33,581 INFO /usr/local/bin/bench start
+2025-03-11 08:41:33,846 INFO /usr/local/bin/bench serve --port 8000
+2025-03-11 08:41:33,851 INFO /usr/local/bin/bench schedule
+2025-03-11 08:41:33,863 INFO /usr/local/bin/bench worker
+2025-03-11 08:41:33,881 INFO /usr/local/bin/bench watch
+2025-03-11 12:00:01,486 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-11 14:17:09,947 INFO /usr/local/bin/bench clear-cache
+2025-03-11 14:17:14,419 INFO /usr/local/bin/bench start
+2025-03-11 14:17:14,685 INFO /usr/local/bin/bench watch
+2025-03-11 14:17:14,703 INFO /usr/local/bin/bench schedule
+2025-03-11 14:17:14,706 INFO /usr/local/bin/bench serve --port 8000
+2025-03-11 14:17:14,739 INFO /usr/local/bin/bench worker
+2025-03-11 18:00:02,390 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-14 08:42:20,157 INFO /usr/local/bin/bench start
+2025-03-14 08:42:20,420 INFO /usr/local/bin/bench worker
+2025-03-14 08:42:20,420 INFO /usr/local/bin/bench schedule
+2025-03-14 08:42:20,425 INFO /usr/local/bin/bench serve --port 8000
+2025-03-14 08:42:20,454 INFO /usr/local/bin/bench watch
+2025-03-14 09:05:16,618 INFO /usr/local/bin/bench clear-cache
+2025-03-14 09:05:20,067 INFO /usr/local/bin/bench start
+2025-03-14 09:05:20,319 INFO /usr/local/bin/bench watch
+2025-03-14 09:05:20,326 INFO /usr/local/bin/bench serve --port 8000
+2025-03-14 09:05:20,333 INFO /usr/local/bin/bench worker
+2025-03-14 09:05:20,354 INFO /usr/local/bin/bench schedule
+2025-03-14 09:07:21,314 INFO /usr/local/bin/bench start
+2025-03-14 09:07:21,528 INFO /usr/local/bin/bench serve --port 8000
+2025-03-14 09:07:21,546 INFO /usr/local/bin/bench schedule
+2025-03-14 09:07:21,558 INFO /usr/local/bin/bench watch
+2025-03-14 09:07:21,601 INFO /usr/local/bin/bench worker
+2025-03-14 09:53:30,783 INFO /usr/local/bin/bench clear-cache
+2025-03-14 09:53:32,941 INFO /usr/local/bin/bench start
+2025-03-14 09:53:33,180 INFO /usr/local/bin/bench schedule
+2025-03-14 09:53:33,189 INFO /usr/local/bin/bench worker
+2025-03-14 09:53:33,202 INFO /usr/local/bin/bench watch
+2025-03-14 09:53:33,237 INFO /usr/local/bin/bench serve --port 8000
+2025-03-14 12:00:01,425 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-14 12:56:31,349 INFO /usr/local/bin/bench clear-cache
+2025-03-14 12:56:33,978 INFO /usr/local/bin/bench start
+2025-03-14 12:56:34,251 INFO /usr/local/bin/bench schedule
+2025-03-14 12:56:34,252 INFO /usr/local/bin/bench worker
+2025-03-14 12:56:34,252 INFO /usr/local/bin/bench watch
+2025-03-14 12:56:34,283 INFO /usr/local/bin/bench serve --port 8000
+2025-03-14 17:35:06,385 INFO /usr/local/bin/bench export-fixtures
+2025-03-14 18:00:01,564 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-17 08:34:40,441 INFO /usr/local/bin/bench start
+2025-03-17 08:34:40,709 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 08:34:40,712 INFO /usr/local/bin/bench worker
+2025-03-17 08:34:40,717 INFO /usr/local/bin/bench schedule
+2025-03-17 08:34:40,747 INFO /usr/local/bin/bench watch
+2025-03-17 10:18:26,874 INFO /usr/local/bin/bench clear-cache
+2025-03-17 10:18:29,021 INFO /usr/local/bin/bench start
+2025-03-17 10:18:29,290 INFO /usr/local/bin/bench watch
+2025-03-17 10:18:29,307 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 10:18:29,308 INFO /usr/local/bin/bench worker
+2025-03-17 10:18:29,317 INFO /usr/local/bin/bench schedule
+2025-03-17 10:21:47,779 INFO /usr/local/bin/bench clear-cache
+2025-03-17 10:21:49,776 INFO /usr/local/bin/bench start
+2025-03-17 10:21:50,031 INFO /usr/local/bin/bench worker
+2025-03-17 10:21:50,088 INFO /usr/local/bin/bench schedule
+2025-03-17 10:21:50,103 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 10:21:50,126 INFO /usr/local/bin/bench watch
+2025-03-17 11:16:01,577 INFO /usr/local/bin/bench clear-cache
+2025-03-17 11:16:03,662 INFO /usr/local/bin/bench start
+2025-03-17 11:16:03,919 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 11:16:03,939 INFO /usr/local/bin/bench watch
+2025-03-17 11:16:03,949 INFO /usr/local/bin/bench worker
+2025-03-17 11:16:03,952 INFO /usr/local/bin/bench schedule
+2025-03-17 11:18:54,474 INFO /usr/local/bin/bench clear-cache
+2025-03-17 11:18:56,274 INFO /usr/local/bin/bench clear-cache
+2025-03-17 11:18:58,563 INFO /usr/local/bin/bench start
+2025-03-17 11:18:58,834 INFO /usr/local/bin/bench worker
+2025-03-17 11:18:58,841 INFO /usr/local/bin/bench schedule
+2025-03-17 11:18:58,881 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 11:18:58,885 INFO /usr/local/bin/bench watch
+2025-03-17 12:00:02,073 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-17 16:23:46,765 INFO /usr/local/bin/bench new-app attendence
+2025-03-17 16:23:46,777 LOG creating new app attendence
+2025-03-17 16:24:24,354 LOG Installing attendence
+2025-03-17 16:24:24,356 DEBUG cd /home/silpc-067/frappe-bench && /home/silpc-067/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/silpc-067/frappe-bench/apps/attendence 
+2025-03-17 16:24:26,885 DEBUG bench build --app attendence
+2025-03-17 16:24:27,011 INFO /usr/local/bin/bench build --app attendence
+2025-03-17 16:24:29,214 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-17 16:24:58,852 INFO /usr/local/bin/bench --site site67.local install-app attendence
+2025-03-17 16:25:21,300 INFO /usr/local/bin/bench --site site67.local list-apps
+2025-03-17 16:25:33,478 INFO /usr/local/bin/bench --site site67.local install-app attendence
+2025-03-17 16:25:36,277 INFO /usr/local/bin/bench --site site67.local list-apps
+2025-03-17 16:26:31,058 INFO /usr/local/bin/bench start
+2025-03-17 16:26:31,311 INFO /usr/local/bin/bench watch
+2025-03-17 16:26:31,313 INFO /usr/local/bin/bench schedule
+2025-03-17 16:26:31,326 INFO /usr/local/bin/bench serve --port 8000
+2025-03-17 16:26:31,340 INFO /usr/local/bin/bench worker
+2025-03-17 16:27:08,823 INFO /usr/local/bin/bench --site site67.local install-app attendence
+2025-03-17 16:27:19,150 INFO /usr/local/bin/bench --site site67.local list-apps
+2025-03-17 18:00:01,958 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-18 08:36:11,626 INFO /usr/local/bin/bench start
+2025-03-18 08:36:11,955 INFO /usr/local/bin/bench watch
+2025-03-18 08:36:11,977 INFO /usr/local/bin/bench schedule
+2025-03-18 08:36:11,989 INFO /usr/local/bin/bench serve --port 8000
+2025-03-18 08:36:12,008 INFO /usr/local/bin/bench worker
+2025-03-18 10:55:51,151 INFO /usr/local/bin/bench start
+2025-03-18 10:55:51,409 INFO /usr/local/bin/bench serve --port 8000
+2025-03-18 10:55:51,414 INFO /usr/local/bin/bench schedule
+2025-03-18 10:55:51,431 INFO /usr/local/bin/bench worker
+2025-03-18 10:55:51,436 INFO /usr/local/bin/bench watch
+2025-03-18 10:55:58,681 INFO /usr/local/bin/bench clear-cache
+2025-03-18 10:56:00,812 INFO /usr/local/bin/bench start
+2025-03-18 10:56:01,038 INFO /usr/local/bin/bench schedule
+2025-03-18 10:56:01,054 INFO /usr/local/bin/bench worker
+2025-03-18 10:56:01,070 INFO /usr/local/bin/bench watch
+2025-03-18 10:56:01,097 INFO /usr/local/bin/bench serve --port 8000
+2025-03-18 11:09:28,804 INFO /usr/local/bin/bench clear-cache
+2025-03-18 11:09:30,963 INFO /usr/local/bin/bench start
+2025-03-18 11:09:31,196 INFO /usr/local/bin/bench serve --port 8000
+2025-03-18 11:09:31,214 INFO /usr/local/bin/bench schedule
+2025-03-18 11:09:31,215 INFO /usr/local/bin/bench worker
+2025-03-18 11:09:31,242 INFO /usr/local/bin/bench watch
+2025-03-18 12:00:01,787 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-18 14:14:02,670 INFO /usr/local/bin/bench clear-cache
+2025-03-18 14:14:05,334 INFO /usr/local/bin/bench start
+2025-03-18 14:14:05,609 INFO /usr/local/bin/bench serve --port 8000
+2025-03-18 14:14:05,613 INFO /usr/local/bin/bench worker
+2025-03-18 14:14:05,632 INFO /usr/local/bin/bench schedule
+2025-03-18 14:14:05,655 INFO /usr/local/bin/bench watch
+2025-03-18 18:00:02,129 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-19 08:37:33,133 INFO /usr/local/bin/bench start
+2025-03-19 08:37:33,412 INFO /usr/local/bin/bench serve --port 8000
+2025-03-19 08:37:33,439 INFO /usr/local/bin/bench worker
+2025-03-19 08:37:33,444 INFO /usr/local/bin/bench watch
+2025-03-19 08:37:33,459 INFO /usr/local/bin/bench schedule
+2025-03-19 12:00:01,721 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-19 15:15:26,116 INFO /usr/local/bin/bench start
+2025-03-19 15:15:26,400 INFO /usr/local/bin/bench watch
+2025-03-19 15:15:26,413 INFO /usr/local/bin/bench serve --port 8000
+2025-03-19 15:15:26,441 INFO /usr/local/bin/bench worker
+2025-03-19 15:15:26,495 INFO /usr/local/bin/bench schedule
+2025-03-19 18:00:02,282 INFO /usr/local/bin/bench --verbose --site all backup
+2025-03-20 09:00:53,189 INFO /usr/local/bin/bench start
+2025-03-20 09:00:53,463 INFO /usr/local/bin/bench serve --port 8000
+2025-03-20 09:00:53,465 INFO /usr/local/bin/bench worker
+2025-03-20 09:00:53,466 INFO /usr/local/bin/bench watch
+2025-03-20 09:00:53,515 INFO /usr/local/bin/bench schedule
+2025-03-20 09:30:57,877 INFO /usr/local/bin/bench clear-cache
+2025-03-20 09:31:00,843 INFO /usr/local/bin/bench start
+2025-03-20 09:31:01,067 INFO /usr/local/bin/bench watch
+2025-03-20 09:31:01,079 INFO /usr/local/bin/bench serve --port 8000
+2025-03-20 09:31:01,081 INFO /usr/local/bin/bench worker
+2025-03-20 09:31:01,116 INFO /usr/local/bin/bench schedule
+2025-03-20 11:27:19,357 INFO /usr/local/bin/bench clear-cache
+2025-03-20 11:27:21,757 INFO /usr/local/bin/bench start
+2025-03-20 11:27:21,981 INFO /usr/local/bin/bench watch
+2025-03-20 11:27:21,994 INFO /usr/local/bin/bench worker
+2025-03-20 11:27:22,004 INFO /usr/local/bin/bench serve --port 8000
+2025-03-20 11:27:22,030 INFO /usr/local/bin/bench schedule
+2025-03-20 12:00:01,437 INFO /usr/local/bin/bench --verbose --site all backup
